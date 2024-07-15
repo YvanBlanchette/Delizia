@@ -1,8 +1,7 @@
 {
 	"name": "Delizia Pizzeria | Four à Bois",
 	"short_name": "Delizia",
-	"description": "La meilleure pizza cuite au four à bois des Laurentides! Nos pizzas sont fait à base d'ingrédients frais, naturels et locaux!",
-
+	"description": "La meilleure pizza cuite au four à bois des Laurentides! Nos pizzas sont faites à base d'ingrédients frais, naturels et locaux!",
 	"icons": [
 		{
 			"src": "https://yvanblanchette.github.io/Delizia/assets/images/android-chrome-192x192.png",
@@ -19,6 +18,7 @@
 	],
 	"start_url": "https://yvanblanchette.github.io/Delizia/index.html",
 	"display": "standalone",
+	"display_override": ["standalone", "fullscreen"],
 	"orientation": "portrait",
 	"theme_color": "#df5605",
 	"background_color": "#000000",
@@ -26,16 +26,36 @@
 		{
 			"src": "https://yvanblanchette.github.io/Delizia/assets/images/delizia_screenshot.jpg",
 			"sizes": "1920x1080",
-			"type": "image/jpg",
-			"form_factor": "wide",
+			"type": "image/jpeg",
 			"label": "Delizia Pizzeria"
 		},
 		{
 			"src": "https://yvanblanchette.github.io/Delizia/assets/images/delizia_screenshot-mobile.jpg",
 			"sizes": "334x750",
-			"type": "image/jpg",
-			"form_factor": "narrow",
+			"type": "image/jpeg",
 			"label": "Delizia Pizzeria"
+		}
+	],
+	"shortcuts": [
+		{
+			"name": "Commander une pizza",
+			"short_name": "Commander",
+			"description": "Commander une pizza en ligne",
+			"url": "/order",
+			"icons": [{ "src": "/images/order-icon.png", "sizes": "192x192", "type": "image/png" }]
+		},
+		{
+			"name": "Voir le menu",
+			"short_name": "Menu",
+			"description": "Voir notre menu complet",
+			"url": "/menu",
+			"icons": [{ "src": "/images/menu-icon.png", "sizes": "192x192", "type": "image/png" }]
+		}
+	],
+	"protocol_handlers": [
+		{
+			"protocol": "web+pizza",
+			"url": "/order?pizza=%s"
 		}
 	]
 }
