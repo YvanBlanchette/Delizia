@@ -5,33 +5,33 @@
 
 	"icons": [
 		{
-			"src": "https://yvanblanchette.github.io/delizia-pizzeria/assets/images/android-chrome-192x192.png",
+			"src": "https://yvanblanchette.github.io/delizia/assets/images/android-chrome-192x192.png",
 			"sizes": "192x192",
 			"type": "image/png",
 			"purpose": "any maskable"
 		},
 		{
-			"src": "https://yvanblanchette.github.io/delizia-pizzeria/assets/images/android-chrome-512x512.png",
+			"src": "https://yvanblanchette.github.io/delizia/assets/images/android-chrome-512x512.png",
 			"sizes": "512x512",
 			"type": "image/png",
 			"purpose": "any maskable"
 		}
 	],
-	"start_url": "https://yvanblanchette.github.io/delizia-pizza/index.html",
+	"start_url": "https://yvanblanchette.github.io/delizia/index.html",
 	"display": "standalone",
 	"orientation": "portrait",
 	"theme_color": "#df5605",
 	"background_color": "#000000",
 	"screenshots": [
 		{
-			"src": "https://yvanblanchette.github.io/delizia-pizzeria/assets/images/delizia_screenshot.jpg",
+			"src": "https://yvanblanchette.github.io/delizia/assets/images/delizia_screenshot.jpg",
 			"sizes": "1920x1080",
 			"type": "image/jpg",
 			"form_factor": "wide",
 			"label": "Delizia Pizzeria"
 		},
 		{
-			"src": "https://yvanblanchette.github.io/delizia-pizzeria/assets/images/delizia_screenshot-mobile.jpg",
+			"src": "https://yvanblanchette.github.io/delizia/assets/images/delizia_screenshot-mobile.jpg",
 			"sizes": "334x750",
 			"type": "image/jpg",
 			"form_factor": "narrow",
